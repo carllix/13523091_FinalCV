@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# spesifikasi tugas (materi kuliah)
+1793274524696_Tugas-Akhir-CV-ID.pdf
+
+# arsip pengumpulan
+*.zip
+
+# data dan cache fitur (ada di Google Drive)
+data/
+feature_cache/
+
+# build LaTeX
+report/*.aux
+report/*.log
+report/*.fls
+report/*.fdb_latexmk
+report/*.bbl
+report/*.blg
+report/*.out
+report/*.synctex.gz
+
+# Python
+__pycache__/
+.ipynb_checkpoints/

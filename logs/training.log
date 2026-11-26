@@ -1,0 +1,12 @@
+2026-11-26T06:34:52+07:00 E1 seed=11 n_train=250 best_epoch=12 best_val_macro_f1=0.7583 seconds=0.5
+2026-11-26T06:34:53+07:00 E2 seed=11 n_train=250 best_epoch=17 best_val_macro_f1=0.7514 seconds=0.5
+2026-11-26T06:34:54+07:00 E3 seed=11 n_train=1000 best_epoch=14 best_val_macro_f1=0.8059 seconds=0.8
+2026-11-26T06:34:55+07:00 E4 seed=11 n_train=1000 best_epoch=13 best_val_macro_f1=0.7973 seconds=1.0
+2026-11-26T06:34:55+07:00 E1 seed=22 n_train=250 best_epoch=20 best_val_macro_f1=0.7595 seconds=0.3
+2026-11-26T06:34:55+07:00 E2 seed=22 n_train=250 best_epoch=27 best_val_macro_f1=0.7511 seconds=0.3
+2026-11-26T06:34:56+07:00 E3 seed=22 n_train=1000 best_epoch=8 best_val_macro_f1=0.8078 seconds=0.7
+2026-11-26T06:34:57+07:00 E4 seed=22 n_train=1000 best_epoch=10 best_val_macro_f1=0.8002 seconds=1.0
+2026-11-26T06:34:58+07:00 E1 seed=33 n_train=250 best_epoch=28 best_val_macro_f1=0.7691 seconds=0.3
+2026-11-26T06:34:58+07:00 E2 seed=33 n_train=250 best_epoch=19 best_val_macro_f1=0.7651 seconds=0.4
+2026-11-26T06:34:59+07:00 E3 seed=33 n_train=1000 best_epoch=25 best_val_macro_f1=0.8139 seconds=0.8
+2026-11-26T06:35:00+07:00 E4 seed=33 n_train=1000 best_epoch=14 best_val_macro_f1=0.8042 seconds=1.0

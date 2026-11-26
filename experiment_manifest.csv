@@ -1,0 +1,13 @@
+student_id,card_id,experiment_id,seed,backbone,weights,input_size,augmentation,n_train,epochs,batch_size,optimizer,learning_rate,best_epoch,checkpoint_path,training_seconds
+13523091,K09,E1,11,mobilenet_v2,IMAGENET1K_V1,128,none,250,30,64,Adam,0.001,12,checkpoints/E1_seed11.pt,0.45
+13523091,K09,E2,11,mobilenet_v2,IMAGENET1K_V1,128,rotation+brightness,250,30,64,Adam,0.001,17,checkpoints/E2_seed11.pt,0.52
+13523091,K09,E3,11,mobilenet_v2,IMAGENET1K_V1,128,none,1000,30,64,Adam,0.001,14,checkpoints/E3_seed11.pt,0.82
+13523091,K09,E4,11,mobilenet_v2,IMAGENET1K_V1,128,rotation+brightness,1000,30,64,Adam,0.001,13,checkpoints/E4_seed11.pt,0.99
+13523091,K09,E1,22,mobilenet_v2,IMAGENET1K_V1,128,none,250,30,64,Adam,0.001,20,checkpoints/E1_seed22.pt,0.28
+13523091,K09,E2,22,mobilenet_v2,IMAGENET1K_V1,128,rotation+brightness,250,30,64,Adam,0.001,27,checkpoints/E2_seed22.pt,0.34
+13523091,K09,E3,22,mobilenet_v2,IMAGENET1K_V1,128,none,1000,30,64,Adam,0.001,8,checkpoints/E3_seed22.pt,0.73
+13523091,K09,E4,22,mobilenet_v2,IMAGENET1K_V1,128,rotation+brightness,1000,30,64,Adam,0.001,10,checkpoints/E4_seed22.pt,1.05
+13523091,K09,E1,33,mobilenet_v2,IMAGENET1K_V1,128,none,250,30,64,Adam,0.001,28,checkpoints/E1_seed33.pt,0.29
+13523091,K09,E2,33,mobilenet_v2,IMAGENET1K_V1,128,rotation+brightness,250,30,64,Adam,0.001,19,checkpoints/E2_seed33.pt,0.37
+13523091,K09,E3,33,mobilenet_v2,IMAGENET1K_V1,128,none,1000,30,64,Adam,0.001,25,checkpoints/E3_seed33.pt,0.75
+13523091,K09,E4,33,mobilenet_v2,IMAGENET1K_V1,128,rotation+brightness,1000,30,64,Adam,0.001,14,checkpoints/E4_seed33.pt,1.0

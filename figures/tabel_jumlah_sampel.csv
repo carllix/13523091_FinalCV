@@ -1,0 +1,12 @@
+,train_penuh,train_terbatas,validation,test
+0 airplane,100,25,50,100
+1 automobile,100,25,50,100
+2 bird,100,25,50,100
+3 cat,100,25,50,100
+4 deer,100,25,50,100
+5 dog,100,25,50,100
+6 frog,100,25,50,100
+7 horse,100,25,50,100
+8 ship,100,25,50,100
+9 truck,100,25,50,100
+total,1000,250,500,1000

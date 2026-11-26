@@ -1,0 +1,29 @@
+perbandingan,test_condition,seed_11,seed_22,seed_33,mean,konsisten
+"E2-E1 (augmentasi, 250)",bersih,-2.02,-2.36,-1.87,-2.09,ya
+"E2-E1 (augmentasi, 250)",gelap_ringan,-2.36,-2.16,-1.94,-2.16,ya
+"E2-E1 (augmentasi, 250)",gelap_sedang,-1.42,-1.13,-0.5,-1.02,ya
+"E2-E1 (augmentasi, 250)",blur_ringan,-1.6,-1.68,-3.23,-2.17,ya
+"E2-E1 (augmentasi, 250)",blur_sedang,-0.92,-1.77,-0.75,-1.15,ya
+"E2-E1 (augmentasi, 250)",rotasi_ringan,18.28,16.26,16.44,16.99,ya
+"E2-E1 (augmentasi, 250)",rotasi_sedang,22.05,19.94,21.05,21.01,ya
+"E4-E3 (augmentasi, 1000)",bersih,0.59,0.61,0.81,0.67,ya
+"E4-E3 (augmentasi, 1000)",gelap_ringan,0.01,-0.98,0.26,-0.23,tidak
+"E4-E3 (augmentasi, 1000)",gelap_sedang,0.01,-1.64,0.96,-0.23,tidak
+"E4-E3 (augmentasi, 1000)",blur_ringan,-0.09,-0.59,1.07,0.13,tidak
+"E4-E3 (augmentasi, 1000)",blur_sedang,-0.82,-0.29,0.08,-0.34,tidak
+"E4-E3 (augmentasi, 1000)",rotasi_ringan,31.0,27.07,32.15,30.07,ya
+"E4-E3 (augmentasi, 1000)",rotasi_sedang,32.82,29.41,31.11,31.12,ya
+"E3-E1 (data, tanpa augmentasi)",bersih,4.21,4.05,3.8,4.02,ya
+"E3-E1 (data, tanpa augmentasi)",gelap_ringan,3.39,4.38,3.7,3.82,ya
+"E3-E1 (data, tanpa augmentasi)",gelap_sedang,3.72,4.01,3.1,3.61,ya
+"E3-E1 (data, tanpa augmentasi)",blur_ringan,4.01,4.82,2.39,3.74,ya
+"E3-E1 (data, tanpa augmentasi)",blur_sedang,3.81,5.34,3.91,4.35,ya
+"E3-E1 (data, tanpa augmentasi)",rotasi_ringan,-6.07,-3.41,-8.62,-6.03,ya
+"E3-E1 (data, tanpa augmentasi)",rotasi_sedang,-3.54,-4.21,-3.67,-3.8,ya
+"E4-E2 (data, dengan augmentasi)",bersih,6.82,7.02,6.48,6.78,ya
+"E4-E2 (data, dengan augmentasi)",gelap_ringan,5.77,5.56,5.91,5.75,ya
+"E4-E2 (data, dengan augmentasi)",gelap_sedang,5.15,3.5,4.55,4.4,ya
+"E4-E2 (data, dengan augmentasi)",blur_ringan,5.51,5.91,6.7,6.04,ya
+"E4-E2 (data, dengan augmentasi)",blur_sedang,3.9,6.83,4.73,5.15,ya
+"E4-E2 (data, dengan augmentasi)",rotasi_ringan,6.65,7.41,7.09,7.05,ya
+"E4-E2 (data, dengan augmentasi)",rotasi_sedang,7.24,5.27,6.38,6.3,ya

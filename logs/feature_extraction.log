@@ -1,0 +1,10 @@
+2026-11-26T06:32:01+07:00 train_clean chunks=[0, 1, 2, 3] device=cpu seconds=19.5
+2026-11-26T06:32:21+07:00 train_aug chunks=[0, 1, 2, 3] device=cpu seconds=20.1
+2026-11-26T06:32:31+07:00 val_clean chunks=[0, 1] device=cpu seconds=9.9
+2026-11-26T06:32:50+07:00 test_bersih chunks=[0, 1, 2, 3] device=cpu seconds=19.2
+2026-11-26T06:33:11+07:00 test_gelap_ringan chunks=[0, 1, 2, 3] device=cpu seconds=21.1
+2026-11-26T06:33:30+07:00 test_gelap_sedang chunks=[0, 1, 2, 3] device=cpu seconds=19.3
+2026-11-26T06:33:50+07:00 test_blur_ringan chunks=[0, 1, 2, 3] device=cpu seconds=19.7
+2026-11-26T06:34:11+07:00 test_blur_sedang chunks=[0, 1, 2, 3] device=cpu seconds=20.9
+2026-11-26T06:34:31+07:00 test_rotasi_ringan chunks=[0, 1, 2, 3] device=cpu seconds=19.9
+2026-11-26T06:34:51+07:00 test_rotasi_sedang chunks=[0, 1, 2, 3] device=cpu seconds=20.4
