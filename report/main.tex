@@ -153,11 +153,9 @@ Metrik yang dihitung adalah \emph{accuracy}, \emph{macro-precision}, \emph{macro
 
 \subsection{Lingkungan dan \emph{Reproducibility}}\label{sec:repro}
 
-Semua \emph{run} dijalankan di Google Colab versi gratis dengan \emph{runtime} CPU (Intel Xeon 2,20 GHz, 2 \emph{core}) menggunakan PyTorch 2.14.1 dan torchvision 0.29.1. Ekstraksi fitur untuk 9500 citra memakan waktu 190 detik, dan \emph{training} 12 \emph{head} total sekitar 8 detik. \emph{Split}, \emph{checkpoint}, prediksi, dan metrik disimpan bersama \emph{checksum} SHA-256. \emph{Notebook} juga punya mode verifikasi yang memuat artefak tersebut, menghitung ulang prediksi dan metrik tanpa \emph{training}, lalu mencocokkannya dengan \emph{file} yang tersimpan. Untuk menguji konsistensi antar-mesin, \emph{notebook} yang sama juga dijalankan di laptop dengan arsitektur CPU dan versi \emph{library} yang berbeda.
+Semua \emph{run} dijalankan di Google Colab versi gratis dengan \emph{runtime} CPU (Intel Xeon 2,20 GHz, 2 \emph{core}) menggunakan PyTorch 2.14.1 dan torchvision 0.29.1. Ekstraksi fitur untuk 9500 citra memakan waktu 190 detik, dan \emph{training} 12 \emph{head} total sekitar 8 detik. \emph{Split}, \emph{checkpoint}, prediksi, dan metrik disimpan bersama \emph{checksum} SHA-256. \emph{Notebook} juga punya mode verifikasi yang memuat artefak tersebut, menghitung ulang prediksi dan metrik tanpa \emph{training}, lalu mencocokkannya dengan \emph{file} yang tersimpan. Saat dijalankan di Colab, mode ini menghasilkan prediksi dan metrik yang sama dengan \emph{file} tersimpan, dan semua \emph{checksum} cocok.
 
 \section{Hasil}\label{sec:results}
-
-Mode verifikasi di Colab menghasilkan prediksi dan metrik yang sama dengan \emph{file} tersimpan, dan semua \emph{checksum} cocok. Dibandingkan dengan \emph{run} di laptop, metrik dan ke-84.000 prediksi kelas sama persis, sedangkan probabilitasnya hanya berbeda di digit keenam (paling jauh 0,000015).
 
 \subsection{\emph{Test} Bersih}\label{sec:res-clean}
 
